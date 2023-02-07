@@ -1,0 +1,17 @@
+section.location#location 
+    .container 
+        .row 
+            .col-lg-6.offset-lg-3 
+                .section-heading.blackversion
+                    h4 Contact Us
+            .location-grid 
+                .container 
+                    .row 
+                        .mapa.col-8
+                            iframe(src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1494.6057793536963!2d-7.178188248875623!3d41.47801296018083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd3b0932c41f4ab1%3A0x2b59d90dc8eb4b3a!2sEscola%20Superior%20de%20Comunica%C3%A7%C3%A3o%2C%20Administra%C3%A7%C3%A3o%20e%20Turismo%20-%20Instituto%20Polit%C3%A9cnico%20de%20Bragan%C3%A7a!5e0!3m2!1spt-PT!2spt!4v1675784053901!5m2!1spt-PT!2spt', width='780', height='450', style='border:0', allowfullscreen="", loading="lazy", referrerpolicy="no-referrer-when-downgrade")
+                        .contact-form.col-4
+                            form(id="contact-form")
+                                input(type="text", name="Name", class="contact-form-field", placeholder="Nome")
+                                input(type="text", name="Email", class="contact-form-field", placeholder="E-mail")
+                                textarea(type="text", name="Message", class="contact-form-field textarea-field", style="resize: none", placeholder="Mensagem...")
+                                button(type="button" class="contact-form-btn") Submit
