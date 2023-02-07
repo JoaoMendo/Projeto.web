@@ -422,6 +422,47 @@ a.linkzam{
   font-family: 'Montserrat';
 }
 
+.bgtext img{
+  padding: 0;
+  background-image: url(https://estudeemportugal.org/wp-content/uploads/2020/06/15-motivos-para-estudar-no-IPB.jpg);
+}
+
+.bgtext .sidetext{
+  text-align: center;
+  color: #fff;
+  padding: 50px;
+}
+
+.bgtext .sidetext h4{
+  font-size: 1.5vw;
+  margin-bottom: 25px;
+}
+
+.bgtext .sidetext h6{
+  font-size: 1.2vw;
+}
+
+.aboutus{
+  margin-top: 30px;
+  font-size: 150px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: -25px;
+  color: #72184D;
+  transition: all 0.3s ease 0s;
+  padding: 0;
+}
+
+.aboutus:hover{
+  text-decoration: none;
+  color: #dc8cdb;
+}
+
+.aboutus h4{
+  font-weight: bold;
+  font-family: 'Montserrat';
+}
+
 .visittitle{
   text-align: center;
   margin-top: 20px;

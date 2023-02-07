@@ -1,0 +1,42 @@
+block variables
+doctype html
+html(lang="pt")
+  head
+    include ../organisms/head
+  body
+    include ../organisms/header
+    section.main-banner#top
+      .container  
+        .row
+          .col-lg-6.align-self-center
+            .header-text 
+              h2 Who we are
+    .row.bgtext
+      img.col-6
+      .col-6.sidetext
+        h4 Who we are
+        h6 O IPB desenvolve a sua missão em articulação com a sociedade, incluindo a cooperação transfronteiriça, numa perspectiva de coesão territorial e de afirmação nacional e internacional, com vista ao desenvolvimento da Região, assente na inovação e na produção e transferência do conhecimento técnico-científico.
+    .row
+      a(href="ipb.html").aboutus.col-4 
+        i.fas.fa-university 
+          h4 IPB
+      a(href="ipb.html").aboutus.col-4 
+        i.fas.fa-university 
+          h4 Schools 
+      a(href="ipb.html").aboutus.col-4 
+        i.fas.fa-university 
+          h4 Central Services
+    .row
+      a(href="ipb.html").aboutus.col-6 
+        i.fas.fa-university 
+          h4 Quality
+      a(href="ipb.html").aboutus.col-6 
+        i.fas.fa-university 
+          h4 Data Protection 
+    include ../organisms/footer
+
+    script(src="../../assets/vendor/jquery/jquery.min.js")
+    script(src="../../assets/vendor/bootstrap/js/bootstrap.bundle.min.js")
+    script(src="../../assets/js/isotope.min.js")
+    script(src="../../assets/js/owl-carousel.js")
+    script(src="../../assets/js/custom.js")
