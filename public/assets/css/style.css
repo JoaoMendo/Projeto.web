@@ -419,6 +419,12 @@ header
   font-size: 2vw;
 }
 
+.hidden a{
+  font-size: 0px;
+  padding: 0;
+  background: none;
+}
+
 a.linkzam{
   margin-top: -5rem;
   color: #72184D;
@@ -1066,7 +1072,6 @@ section.contact-us {
 
 section.contact-us .row{
   padding: 25px;
-  margin-left: 10%;
 }
 
 section.contact-us h4{
@@ -1272,11 +1277,15 @@ body {
     margin-left: 40px;
     width: 50%;
   }
-  .social-icons{
-    float: right;
-  }
   .separator{
     margin-right: 50px;
+  }
+  .social-icons li a{
+    float: right;
+    width: 30px !important;
+    height: 30px !important;
+    line-height: 30px !important;
+    font-size: 16px;
   }
 }
 
@@ -1314,10 +1323,43 @@ body {
     margin-left: -40px;
     width: 50%;
   }
-  .social-icons{
-    float:none;
-  }
   .separator{
     margin-top: 20px;
+  }
+  .contact-us h4,p{
+    font-size: 10px;
+  }
+  .social-icons li a{
+    float: none !important;
+    width: 20px !important;
+    height: 20px !important;
+    line-height: 20px !important;
+    font-size: 12px;
+  }
+  .bgtext{
+    height: 500px;
+  }
+  .bgtext p{
+    align-items: center;
+    font-size: 12px !important;
+  }
+  .linkzam{
+    font-size: 20px !important;
+  }
+  .botoes2{
+    margin-top: 50px;
+    margin-bottom: 0;
+  }
+  .botoes2 .icon{
+    margin-bottom: 0;
+  }
+  .botoes2 a{
+    font-size: 50px !important;
+  }
+  .aboutus{
+    font-size: 50px !important;
+  }
+  .titulos p{
+    font-size: 24px !important;
   }
 }
