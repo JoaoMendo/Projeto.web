@@ -442,6 +442,16 @@ header
   width: 60%;
 }
 
+.schooltable{
+  margin-top: 30px;
+  text-align: center;
+}
+
+.imglink:hover{
+  transition: all 0.3s ease-in-out 0s;
+  padding: 15px;
+}
+
 a.linkzam{
   margin-top: 35px;
   color: #72184D;
@@ -474,7 +484,7 @@ a.linkzam{
   margin-top: 30px;
   font-size: 200px;
   text-align: center;
-  margin-bottom: -25px;
+  margin-bottom: 70px;
 }
 
 .botoes2 .icon h4{
@@ -525,6 +535,7 @@ a.linkzam{
   color: #111;
   font-family: 'Montserrat';
   margin-top: 25px;
+  margin-bottom: 20px;
 }
 
 .visittitle{
@@ -873,7 +884,6 @@ section.main-banner {
   position: relative;
   z-index: 2;
   font-size: 17px;
-
   margin-bottom: 30px;
   font-weight: 500;
   color: #fff;;
@@ -1397,8 +1407,11 @@ body {
   .botoes2 .icon{
     margin-bottom: 0;
   }
+  .botoes2 h4{
+    margin-bottom: 40px;
+  }
   .botoes2 img{
-    width: 50px;
+    width: 150px;
   }
   .botoes2 a{
     font-size: 50px !important;
